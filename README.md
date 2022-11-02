@@ -8,6 +8,11 @@ The final version will be a Lightning page that contains multiple components use
 
 ![carved-rock-logo-yellow-reduced](https://user-images.githubusercontent.com/1944098/199588374-9f24407b-9acd-42a7-8dec-2f4b494ada59.png)
 
+## Table of Contents
+
+-   [Installing final version of LWCGettingStarted using a scratch org](#installing-LWCGettingStarted-using-a-scratch-org)
+-   [Course contents] (#course-contents)
+
 ## Installing final version of LWCGettingStarted using a scratch org
 
 1. Set up your environment. You can follow the steps demonstrated in the Pluralsight Module, **Creating Components with Salesforce Developer Experience (SFDX) Tools**  
@@ -46,4 +51,51 @@ The final version will be a Lightning page that contains multiple components use
     ```
     sfdx force:org:open
     ```
-    
+
+## Course contents
+
+This course will offer modules that cover the following:
+
+1. Building Your First Lightning Web Component (LWC)
+   - Define LWC and list the benefits it offers
+   - Describe the four pillars of web components
+   - Create a simple app in webcomponents.dev
+   - Understand the basic LWC structure
+   - Review the different ways to display components in Salesforce
+   
+2. Creating Components with Salesforce Developer Experience (SFDX) Tools
+   - Contrast the source-driven development model with the org–based model
+   - Demonstrate how to get setup with SFDX
+   - Use VS Code to create a lightning web component
+   - Explain how to work with base lightning components 
+   - Explain how useful the SLDS can be for styling Salesforce components
+   - Explain how the @api decorator can be used to expose public properties
+   - Create a scratch org and deploy a component to the org
+   - Use Lightning App Builder to create an app
+   
+3. Working with Custom Events and Debugging
+   - List different ways to communicate between components
+   - Create a simple nested child component
+   - Demonstrate how getter and setter functions work
+   - Explain how to create custom events and pass data
+   - Develop code used to create a custom event
+   - Demonstrate how to use the Chrome debugger
+   
+4. Working with Lightning Data Service 
+   - Describe the challenges of working with Salesforce data across multiple lightning web components
+   - List the different ways there are to work with Salesforce Data
+   - Demonstrate how to use the CLI to load data into Salesforce 
+   - Demonstrate how to use SOQL Builder to query data
+   - Develop code to read data with Lightning Data Service wire adapters
+   - Create simple APEX code to execute a SOQL query
+   - Develop code that uses a Record Form Lightning Web Component 
+   - Display formatted errors to the end user
+   
+5. Working with Lightning Message Service and NavigationMixin
+   - Define the Lightning Message Service 
+   - Create a Lightning Message Channel file
+   - Add code to send data from the publisher component
+   - Add code to the subscriber component to receive data
+   - Explain how to work with NavigationMixin
+   - Add code to handle navigating to a data record
+   - Explain why using LMS is not always the best approach

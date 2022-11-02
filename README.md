@@ -47,4 +47,3 @@ The final version will be a Lightning page that contains multiple components use
     sfdx force:org:open
     ```
     
-

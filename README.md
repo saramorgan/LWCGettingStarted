@@ -10,7 +10,7 @@ The final version will be a Lightning page that contains multiple components use
 
 ## Installing final version of LWCGettingStarted using a scratch org
 
-1. Set up your environment. You can follow the steps demonstrated in the Pluralsight Module, ** Creating Components with Salesforce Developer Experience (SFDX) Tools **  
+1. Set up your environment. You can follow the steps demonstrated in the Pluralsight Module, **Creating Components with Salesforce Developer Experience (SFDX) Tools**  
    
     - Sign-up for Developer Org (https://developer.salesforce.com/signup)
     - Enable Dev Hub in your Develper Org - (https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_setup_enable_devhub.htm)

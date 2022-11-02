@@ -11,7 +11,7 @@ The final version will be a Lightning page that contains multiple components use
 ## Table of Contents
 
 -   [Installing final version of LWCGettingStarted using a scratch org](#installing-final-version-of-lwcgettingstarted-using-a-scratch-org)
--   [Course contents] (#course-contents)
+-   [Cocepts covered in course](#concepts-covered-in-course)
 
 ## Installing final version of LWCGettingStarted using a scratch org
 
@@ -52,7 +52,7 @@ The final version will be a Lightning page that contains multiple components use
     sfdx force:org:open
     ```
 
-## Course contents
+## Concepts covered in course
 
 This course will offer modules that cover the following:
 
@@ -98,4 +98,3 @@ This course will offer modules that cover the following:
    - Add code to the subscriber component to receive data
    - Explain how to work with NavigationMixin
    - Add code to handle navigating to a data record
-   - Explain why using LMS is not always the best approach

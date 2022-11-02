@@ -4,7 +4,7 @@ This is a sample application that demonstrates how to get started building appli
 
 ![carved-rock-logo-yellow-reduced](https://user-images.githubusercontent.com/1944098/199588374-9f24407b-9acd-42a7-8dec-2f4b494ada59.png)
 
-## Installing LWCGettingStarted using a scratch org
+## Installing final version of LWCGettingStarted using a scratch org
 
 1. Set up your environment. You can follow the steps demonstrated in the Pluralsight Module, ** Creating Components with Salesforce Developer Experience (SFDX) Tools **  
    
@@ -26,5 +26,21 @@ This is a sample application that demonstrates how to get started building appli
     git clone https://github.com/saramorgan/LWCGettingStarted
     cd LWCGettingStarted
     ```
+4. Create a scratch org and provide it with an alias (**GettingStartedLWC** in the command below):
 
+    ```
+    sfdx force:org:create -s -f config/project-scratch-def.json -a GettingStartedLWC
+    ```
+
+5. Push the app to your scratch org:
+
+    ```
+    sfdx force:source:push
+    ```
+6. Open the scratch org:
+
+    ```
+    sfdx force:org:open
+    ```
+    
 

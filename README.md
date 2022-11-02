@@ -57,7 +57,7 @@ If you encounter problems with the code, please consider adding an issue to this
 
 ## Concepts covered in course
 
-This course will offer modules that cover the following:
+This course offers modules that cover the following:
 
 1. Building Your First Lightning Web Component (LWC)
    - Define LWC and list the benefits it offers

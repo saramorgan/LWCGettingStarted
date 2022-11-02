@@ -1,0 +1,16 @@
+.lgc-bg {
+    background-color: rgb(242, 242, 242);
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+c-product-tile {
+    min-width: 200px;
+    flex: 1;
+}
+
+

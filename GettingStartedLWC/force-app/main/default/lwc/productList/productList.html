@@ -1,0 +1,27 @@
+<template>
+    <article class="slds-card">
+        <div class="slds-var-p-around_medium lgc-bg">
+            <div if:true={searchable}>
+                <lightning-input 
+                    type="text" 
+                    label="Search Key"
+                    onchange={handleSearchKeyChange}
+                ></lightning-input>
+            </div> 
+            <div if:true={products.data} class="container">
+                <template for:each={products.data} for:item="product">
+                    <c-product-tile
+                        key={product.Id}
+                        product={product}
+                        onselected={handleProductSelected}
+                        class="slds-var-m-around_small">
+                    </c-product-tile>
+                </template>
+            </div>
+            <div if:true={products.error}>
+                <c-error-panel errors={products.error}></c-error-panel>
+            </div>
+        </div>
+    </article>
+</template>
+

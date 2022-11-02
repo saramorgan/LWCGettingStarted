@@ -1,0 +1,43 @@
+<template>
+    <lightning-card icon-name="standard:trailhead">
+        <template if:true={recordId}>
+            <span slot="title">{productName}</span>
+            <!-- sldsValidatorIgnoreNextLine -->
+            <lightning-button-icon
+                icon-name="utility:link"
+                slot="actions"
+                onclick={handleNavigateToRecord}>
+            </lightning-button-icon>
+            <div class="slds-align)absolute-center slds-var-m-horizontal_medium">
+                <img if:true={productPictureUrl}
+                    src={productPictureUrl}
+                    class="product"
+                    alt={name} />
+                <lightning-record-view-form
+                    record-id={recordId}
+                    onload={handleRecordLoaded}
+                    object-api-name="Product2"
+                    density="compact">
+                    <lightning-output-field
+                        field-name={familyField}>
+                    </lightning-output-field>
+                    <lightning-output-field
+                        field-name={productCodeField}>
+                    </lightning-output-field>
+                    <lightning-output-field
+                        field-name={msrpField}>
+                    </lightning-output-field>
+                    <lightning-output-field
+                        field-name={descriptionField}>
+                    </lightning-output-field>
+                </lightning-record-view-form>
+            </div>
+            <template if:false={recordId}>
+                <div class="slds-var-p-around_large">
+                    <h1 class="slds-align_absolute-center">Select a product to see details</h1>
+                </div>
+            </template>
+    
+        </template>
+    </lightning-card>
+</template>

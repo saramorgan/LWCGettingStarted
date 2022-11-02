@@ -10,7 +10,7 @@ The final version will be a Lightning page that contains multiple components use
 
 ## Table of Contents
 
--   [Installing final version of LWCGettingStarted using a scratch org](#installing-LWCGettingStarted-using-a-scratch-org)
+-   [Installing final version of LWCGettingStarted using a scratch org](#installing-final-version-of-lwcgettingstarted-using-a-scratch-org)
 -   [Course contents] (#course-contents)
 
 ## Installing final version of LWCGettingStarted using a scratch org

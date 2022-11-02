@@ -6,6 +6,9 @@ It centers around creating a solution for a fictional outdoor provider named Car
 
 The final version will be a Lightning page that contains multiple components used to search for products and display a list of product tiles. Users can select one of the tiles to see more product detail and access a link for editing the product.
 
+**NOTE**
+If you encounter problems with the code, please consider adding an issue to this repo
+
 ![carved-rock-logo-yellow-reduced](https://user-images.githubusercontent.com/1944098/199588374-9f24407b-9acd-42a7-8dec-2f4b494ada59.png)
 
 ## Table of Contents
@@ -99,4 +102,3 @@ This course will offer modules that cover the following:
    - Explain how to work with NavigationMixin
    - Add code to handle navigating to a data record
 
-TODO: Add branches with Starting and Ending code for modules with code

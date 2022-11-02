@@ -98,3 +98,5 @@ This course will offer modules that cover the following:
    - Add code to the subscriber component to receive data
    - Explain how to work with NavigationMixin
    - Add code to handle navigating to a data record
+
+TODO: Add branches with Starting and Ending code for modules with code

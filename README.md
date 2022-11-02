@@ -1,10 +1,10 @@
 # Getting Started with LWC
 
-This is a sample application that accompanies the Pluralsight course, **Getting Started with Salesforce Lightning Web Components** .It is used to demonstrate how to get started building applications with Lightning web components and SFDX tools. 
+This is a sample application that accompanies the Pluralsight course, **Getting Started with Salesforce Lightning Web Components** . It is used to demonstrate how to get started building applications with Lightning web components and SFDX tools. 
 
-It centers around creating a solution for a fictional outdoor provider named Carved Rock Fitness. The solution is designed to use Lightning web components and allow a mobile or desktop user to search for products. 
+It centers around creating a solution for a fictional outdoor provider named Carved Rock Fitness. The solution is designed to use Lightning web components, allowing a mobile or desktop user to search for products. 
 
-The final version will be a Lightning page that contains multiple components used to search for products and display a list of product tiles. Users can select one of the tiles to see more product detail and access a link for editing the product.
+The final version will be a Lightning page containing multiple components used to search for products and display a list of product tiles. Users can select one of the tiles to see more product detail and access a link for editing the product.
 
 **NOTE**
 If you encounter problems with the code, please consider adding an issue to this repo

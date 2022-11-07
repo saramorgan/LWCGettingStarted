@@ -5,7 +5,7 @@
                 "type": "Product2",
                 "referenceId": "Product2Ref1"
             },
-            "Description": "Ready for sand, boardwalks and grassy backyard BBQs, the Malibu Waves women's sandals feature easy-to-wear styling that goes with shorts, skirts, dresses and summer adventures.",
+            "Description": "Ready for sand, boardwalks and grassy backyard BBQs, the Malibu Waves women's shoes feature easy-to-wear styling that goes with shorts, skirts, dresses and summer adventures.",
             "Family": "Boots",
             "Name": "Womens Hiking Shoe",
             "MSRP__c": 49.99,
@@ -105,7 +105,7 @@
             "Family": "Climbing Gear",
             "Name": "Ice Screws",
             "MSRP__c": 59.95,
-            "Picture_URL__c": "https://saramorgandotnet.files.wordpress.com/2022/09/icescrews.png",
+            "Picture_URL__c": "https://saramorgandotnet.files.wordpress.com/2022/11/icescrew.jpg",
             "ProductCode": "876555"
         },
         {
@@ -115,9 +115,9 @@
             },
             "Description": "The largest belay and rappel locker from Black Diamond, the versatile RockLock Screwgate Carabiner features a keylock nose and is Munter Hitch compatible.",
             "Family": "Climbing Gear",
-            "Name": "Ice screws",
-            "MSRP__c": 8.96,
-            "Picture_URL__c": null ,
+            "Name": "Rock Clip",
+            "MSRP__c": 10.96,
+            "Picture_URL__c": "https://saramorgandotnet.files.wordpress.com/2022/11/rockclip.jpeg" ,
             "ProductCode": "8765688"
         },
         {

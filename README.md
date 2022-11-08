@@ -49,7 +49,20 @@ If you encounter problems with the code, please consider adding an issue to this
     ```
     sfdx force:source:push
     ```
-6. Open the scratch org:
+    
+6. Assign the **GettingStartedLWC** permission set to the default user:
+
+    ```
+    sfdx force:user:permset:assign -n GettingStartedLWC
+    ``` 
+    
+7. Import sample data:
+
+    ```
+    sfdx force:data:tree:import -p ./data/Product2-data-plan.json
+    ```
+    
+8. Open the scratch org:
 
     ```
     sfdx force:org:open

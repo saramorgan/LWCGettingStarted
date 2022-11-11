@@ -11,8 +11,6 @@ If you encounter problems with the code, please consider adding an issue to this
 
 ## Course Preview
 
-
-
 ![carved-rock-logo-yellow-reduced](https://user-images.githubusercontent.com/1944098/199588374-9f24407b-9acd-42a7-8dec-2f4b494ada59.png)
 
 ## Table of Contents

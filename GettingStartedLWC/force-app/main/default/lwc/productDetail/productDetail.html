@@ -1,5 +1,10 @@
+/* Uses the Record View Form base component to display a Product2 data 
+   for a single record. Also includes a Button icon base component to 
+   navigate to the Product2 page for this record. */
+
 <template>
     <lightning-card icon-name="standard:trailhead">
+        // Conditional directive only renders content when a recordId is provided
         <template if:true={recordId}>
             <span slot="title">{productName}</span>
             <!-- sldsValidatorIgnoreNextLine -->
@@ -9,6 +14,7 @@
                 onclick={handleNavigateToRecord}>
             </lightning-button-icon>
             <div class="slds-align)absolute-center slds-var-m-horizontal_medium">
+                // Conditional directive only renders image when a recordId is provided
                 <img if:true={productPictureUrl}
                     src={productPictureUrl}
                     class="product"
@@ -32,6 +38,7 @@
                     </lightning-output-field>
                 </lightning-record-view-form>
             </div>
+            // Conditional directive only renders content below when a recordId is NOT provided
             <template if:false={recordId}>
                 <div class="slds-var-p-around_large">
                     <h1 class="slds-align_absolute-center">Select a product to see details</h1>

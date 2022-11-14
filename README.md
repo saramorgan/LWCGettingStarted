@@ -27,20 +27,20 @@ If you encounter problems with the code, please consider adding an issue to this
     - Enable Dev Hub in your Develper Org - (https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_setup_enable_devhub.htm)
     - Install Salesforce CLI - (https://developer.salesforce.com/tools/sfdxcli)
     - Install Visual Studio Code - (https://code.visualstudio.com/download)
-    - Install the Visual Studio Code Salesforce extensions - (https://developer.salesforce.com/tools/vscode/en/vscode-desktop/install)
+    - Open Visal Studio Code and install the Visual Studio Code Salesforce extensions - (https://developer.salesforce.com/tools/vscode/en/vscode-desktop/install)
     
-2. If you haven't already done so, authorize your dev hub org and provide it with an alias (**myDevHub** in the command below):
+2. Select the Explorer icon in the left toolbar of Visual Studio Code to clone the repository:
+   - Click **Clone Repository**. 
+   - Enter the URL of the repo: https://GitHub.com/saramorgan/LWCGettingStarted
+   - Select the Repository location.
+   - When prompted, click **Open** to open the cloned repository.
+    
+3. If you haven't already done so, use Terminal to authorize your dev hub org and provide it with an alias (**myDevHub** in the command below):
 
     ```
     sfdx auth:web:login -d -a myDevHub
     ```
     
-3. Clone the repository:
-
-    ```
-    git clone https://github.com/saramorgan/LWCGettingStarted
-    cd LWCGettingStarted
-    ```
 4. Create a scratch org and provide it with an alias (**GettingStartedLWC** in the command below):
 
     ```

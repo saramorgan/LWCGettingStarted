@@ -62,7 +62,7 @@ If you encounter problems with the code, please consider adding an issue to this
 7. Import sample data:
 
     ```
-    sfdx force:data:tree:import -p ./data/Product2-data-plan.json
+    sfdx force:data:tree:import -p ./data/Product2-plan.json
     ```
     
 8. Open the scratch org:

@@ -20,10 +20,11 @@ public with sharing class ProductController {
 
         // Query is built dynamically. See more info here: 
         // https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_dynamic_soql.htm
+        // Also uses WITH USER_MODE to enforce User Mode for Database Operations
         Object[] products = Database.query(
             'Select Id, Name, MSRP__c, Picture_URL__c FROM Product2 ' + 
             whereClause + 
-            ' WITH SECURITY_ENFORCED' +
+            ' WITH USER_MODE' +
             ' ORDER BY Name');
 
         return products;

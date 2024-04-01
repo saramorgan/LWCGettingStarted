@@ -1,20 +1,22 @@
-// ** This component displays a list of searchable products and uses
-// ** a nested child component called productTile that is called
-// ** using a for:each directive
+
+<!-- ** This component displays a list of searchable products and uses
+** a nested child component called productTile that is called
+** using a for:each directive -->
 <template>
     <article class="slds-card">
         <div class="slds-var-p-around_medium lgc-bg">
-            // ** Conditional dirctive that only displays the lightning-input when searchable is true
-            <div if:true={searchable}>
+            <!-- ** Conditional directive that only displays the lightning-input when searchable is true -->
+            <div lwc:if={searchable}>
                 <lightning-input 
                     type="text" 
                     label="Search Key"
                     onchange={handleSearchKeyChange}
                 ></lightning-input>
             </div> 
-            // ** Conditional directive that only displays tiles when there are products
-            <div if:true={products.data} class="container">
-                // ** for:each directive used to loop through all the products returned from the Apex class
+        </div>
+            <!-- ** Conditional directive that only displays tiles when there are products -->
+            <div lwc:if={products.data} class="container">
+                <!-- ** for:each directive used to loop through all the products returned from the Apex class -->
                 <template for:each={products.data} for:item="product">
                     <c-product-tile
                         key={product.Id}
@@ -24,13 +26,5 @@
                     </c-product-tile>
                 </template>
             </div>
-            // ** Conditional dirctive that displays an error using the errorPanel component
-            // errorPanel found here: https://github.com/trailheadapps/lwc-recipes/tree/main/force-app/main/default/lwc/errorPanel
-            // ALso requires the ldsUtils component found here: https://github.com/trailheadapps/lwc-recipes/tree/main/force-app/main/default/lwc/ldsUtils
-            <div if:true={products.error}>
-                <c-error-panel errors={products.error}></c-error-panel>
-            </div>
-        </div>
-    </article>
+     </article>
 </template>
-
